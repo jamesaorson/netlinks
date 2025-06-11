@@ -1,6 +1,11 @@
-#! /usr/bin/env/python3
+#! /bin/bash
 
-import sys
+echo "hello!"
 
-print(sys.stdin)
+# #! /usr/bin/env python3
+
+# import sys
+
+# print("netlinks hook!")
+# print(sys.stdin)
 
