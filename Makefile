@@ -16,6 +16,11 @@ install: ## Install hooks
 	echo "Installed git hooks in .git/hooks:"
 	ls -1 .
 
+example.txt.netlink: ## Create an example netlink
+	ln -s -f \
+		'https://example-files.online-convert.com/document/txt/example.txt' \
+		./links/example.txt.netlink
+
 help: ## Display this help
 	awk '
 	  BEGIN { FS = ":.*##"; printf "Usage:\n  make \033[36m<target>\033[0m\n" }

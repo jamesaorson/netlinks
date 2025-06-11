@@ -1,0 +1,3 @@
+links/*
+!links/*.netlink
+!links/.gitkeep
